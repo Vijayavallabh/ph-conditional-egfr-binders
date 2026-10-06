@@ -1,0 +1,21 @@
+name,length,lineage,d_occ,occ_HIE,pkai_ddg_pH,ddg_pH_propka,iso_causal,mmgbsa_dd_bind,bind_consensus,chai_human,chai_mouse,boltz,af2ig_iface_pae,prodigy_dG_kcal,oracle_TM,struct_tm,xreact_mech_sev,free_cys,source,seq_integrity
+egfr_phsw_29,56,egfr_phsw_03,0.927,0.06999999999999999,0.946,1.267,yes,-8.51,0.808,0.808,0.814,0.554,7.69,,,0.769,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_23,108,egfr_phsw_06,0.957,0.041666666666666664,0.972,1.96,yes,-17.44,0.821,0.821,0.827,0.909,6.59,,,0.793,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_33,92,egfr_phsw_16,0.932,0.02,,,,,0.534,,,,,,0.782,,0,0,metrics_w21_final.csv,byte-match
+egfr_phsw_27,104,egfr_phsw_08,0.978,0.02,0.704,1.274,incon.,-6.8,0.213,0.213,0.205,0.585,6.73,,,0.828,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_22,56,egfr_phsw_01,0.9617,0.03666666666666667,0.59,0.993,yes,-8.03,0.202,0.202,,0.852,5.39,,,0.89,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_34,108,egfr_phsw_06,0.927,0.073,,,,,0.452,,,,,,0.773,,0,0,metrics_w21_final.csv,byte-match
+egfr_phsw_36,56,egfr_phsw_03,0.952,0.043,,,,,0.835,,,,,,0.645,,0,0,metrics_w21_final.csv,byte-match
+egfr_phsw_04,104,egfr_phsw_04,0.89,,0.929,1.707,,-4.57,0.781,0.781,0.785,0.642,11.4,-9.5,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_38,70,egfr_phsw_12,0.55,0.38,,,,,0.436,,,,,,0.788,,0,0,metrics_w21_final.csv,byte-match
+egfr_phsw_08,104,egfr_phsw_08,0.57,,0.63,1.593,,-2.02,0.699,0.699,0.745,0.408,8.6,-11.1,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_39,92,egfr_phsw_16,0.485,0.205,,,,,0.611,,,,,,0.765,,0,0,metrics_w21_final.csv,byte-match
+egfr_phsw_19,61,egfr_phsw_19,0.48,,0.358,0.799,,-3.29,0.85,0.85,0.839,0.834,5.2,-9.0,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_12,70,egfr_phsw_12,0.335,,0.129,1.34,,-2.78,0.84,0.84,0.808,0.859,6.9,-9.8,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_16,92,egfr_phsw_16,0.195,,0.347,1.06,,-8.47,0.761,0.761,0.815,0.912,10.3,-8.8,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_02,91,egfr_phsw_02,0.155,,0.693,2.119,,-4.93,0.209,0.209,0.2,0.86,7.0,-11.4,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_06,108,egfr_phsw_06,0.595,,0.954,1.605,,-11.98,0.814,0.814,0.728,0.832,7.4,-10.8,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_09,108,egfr_phsw_09,0.255,,0.846,1.467,,-6.45,0.856,0.856,0.817,0.895,6.9,-11.6,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_32,108,egfr_phsw_06,,,,,,,,,,,,,,,,0,adaptyv_challenge1_resubmit_W19_FINAL.csv,byte-match
+egfr_phsw_inv01,88,inverted (binder-His+...Asp460),0.515,0.00,,,,,0.623,0.623,,0.776,9.28,,,0.725,,0,wave22_moonshot,byte-match
+egfr_phsw_inv02,80,inverted (binder-His41+...Asp460),0.87,0.13,,,,,0.786,0.786,0.801,0.843,9.56,,,0.750,,0,wave22_moonshot,byte-match

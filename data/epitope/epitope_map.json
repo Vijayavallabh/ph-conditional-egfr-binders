@@ -1,0 +1,117 @@
+{
+ "target": "human EGFR extracellular region (UniProt P00533-1)",
+ "numbering": "full P00533 precursor numbering (signal peptide 1-24)",
+ "reference_structure": "PDB 6ARU chain A (EGFR + cetuximab Fab)",
+ "ecd_range": [
+  25,
+  645
+ ],
+ "domain_III_approx": [
+  313,
+  514
+ ],
+ "ecd_identity_human_vs_mouse_pct": 88.73,
+ "conserved_anchors": [
+  {
+   "pos": 408,
+   "human": "Q",
+   "mouse": "Q",
+   "conserved": true
+  },
+  {
+   "pos": 432,
+   "human": "Q",
+   "mouse": "Q",
+   "conserved": true
+  },
+  {
+   "pos": 433,
+   "human": "H",
+   "mouse": "H",
+   "conserved": true
+  },
+  {
+   "pos": 436,
+   "human": "F",
+   "mouse": "F",
+   "conserved": true
+  },
+  {
+   "pos": 464,
+   "human": "S",
+   "mouse": "S",
+   "conserved": true
+  },
+  {
+   "pos": 489,
+   "human": "K",
+   "mouse": "K",
+   "conserved": true
+  }
+ ],
+ "divergent_avoid": [
+  {
+   "pos": 377,
+   "human": "R",
+   "mouse": "K",
+   "conserved": false
+  },
+  {
+   "pos": 442,
+   "human": "S",
+   "mouse": "G",
+   "conserved": false
+  },
+  {
+   "pos": 467,
+   "human": "K",
+   "mouse": "R",
+   "conserved": false
+  },
+  {
+   "pos": 491,
+   "human": "I",
+   "mouse": "M",
+   "conserved": false
+  },
+  {
+   "pos": 492,
+   "human": "S",
+   "mouse": "N",
+   "conserved": false
+  },
+  {
+   "pos": 497,
+   "human": "N",
+   "mouse": "K",
+   "conserved": false
+  }
+ ],
+ "ph_sensor": {
+  "pos": 433,
+  "human": "H",
+  "mouse": "H",
+  "note": "protonated His imidazole (pKa ~6.3) => ON @ 6.5 / OFF @ 7.4; conserved => serves objectives 1 & 2"
+ },
+ "objective_priority": [
+  "ph_selective",
+  "cross_reactive",
+  "human_affinity"
+ ],
+ "mechanism2_conserved_anchors": [
+  {
+   "pos": 370,
+   "human": "H",
+   "mouse": "H",
+   "conserved": true,
+   "role": "second conserved epitope histidine (Liu 2022 PMID 36458200)"
+  },
+  {
+   "pos": 460,
+   "human": "D",
+   "mouse": "D",
+   "conserved": true,
+   "role": "inverted-switch target acid (binder-His -> Asp460); mature numbering D436"
+  }
+ ]
+}

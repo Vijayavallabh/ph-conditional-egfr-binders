@@ -1,0 +1,31 @@
+# EGFR conditional-binder target & epitope contract
+# Verified from the challenge page + stage0 alignment (see data/epitope/epitope_map.json).
+target:
+  name: human EGFR extracellular region
+  uniprot: P00533-1
+  ecd_residues: [25, 645]          # full P00533 precursor numbering (signal peptide 1-24)
+  reference_structure: 6ARU        # X-ray 3.20 A, chain A = EGFR ECD, chains B/C = cetuximab Fab
+  target_chain: A
+  epitope: Domain III (L2)          # cetuximab/panitumumab functional epitope; blocks EGF binding
+  domain_III_approx: [313, 514]     # approximate, full numbering - VERIFY vs 6ARU/1YY9
+
+cross_reactivity:
+  mouse_uniprot: Q01279
+  ecd_identity_pct: 88.73           # computed human vs mouse over residues 25-645
+  # Conserved (human == mouse) anchors on the Domain III face -> TARGET these:
+  conserved_anchors: [408, 432, 433, 436, 464, 489]
+  # Cetuximab contacts that DIFFER human vs mouse (why cetuximab misses mouse) -> AVOID:
+  divergent_avoid: [377, 442, 467, 491, 492, 497]
+
+ph_switch:
+  ph_low: 6.5                       # tumor microenvironment - binding ON
+  ph_high: 7.4                      # normal tissue - binding OFF
+  sensor_his: 433                   # His433 conserved human+mouse; imidazole pKa ~6.3
+  his_pka_target: [6.3, 7.0]
+  min_interface_his: 2
+  sign: tumor-ON                    # protonated His salt-bridges to Domain III Asp/Glu at low pH
+  note: >
+    Do NOT copy endosomal-recycling His motifs (bind-OFF-at-low-pH). AF/Boltz/Chai are
+    pH-agnostic: confirm the switch only via two-pH electrostatic/pKa scoring (stage 4).
+
+objective_priority: [ph_selective, cross_reactive, human_affinity]

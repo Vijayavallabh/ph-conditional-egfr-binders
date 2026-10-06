@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Heavy / non-distributable (weights, environments, run outputs, structures)
+weights/
+envs/
+third_party/
+runs/
+*.pdb
+*.cif
+*.cif.gz
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
