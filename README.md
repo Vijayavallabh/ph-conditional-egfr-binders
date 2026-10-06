@@ -72,3 +72,7 @@ python scripts/validate_submission.py submission/designs.csv --track 3
 
 Designed by Vijayavallabh for the Anthropic × Adaptyv 2026 Protein Design Competition, Challenge 1.
 Precedent and method citations are listed in `docs/METHODS.md`.
+
+## License
+
+Released under the MIT License — see [LICENSE](LICENSE).
